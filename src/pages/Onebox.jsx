@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Footer from "../components/Footer";
 import Leftbar from "../components/Leftbar";
 import Navbar from "../components/Navbar";
 import Home from "../components/Home";
@@ -38,7 +37,6 @@ function Onebox() {
       <Leftbar onMenuItemClick={handleMenuItemClick} />
       <Navbar />
       <div>{renderComponent()}</div>
-      <Footer />
     </div>
   );
 }

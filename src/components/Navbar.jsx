@@ -21,7 +21,7 @@ function Navbar() {
 
         <button
           onClick={handleLogout}
-          className="flex items-center border-2 border-red-500 rounded-md py-1 px-3 text-red-500 text-xl mr-10 cursor-pointer"
+          className="flex items-center border-2 border-red-500 hover:bg-red-500 hover:text-white rounded-md py-1 px-3 text-red-500 text-xl mr-10 cursor-pointer"
         >
           Logout
         </button>
